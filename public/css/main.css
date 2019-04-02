@@ -2329,6 +2329,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
+  background: url(../img/ezgif.com-gif-maker.gif) center;
+  background-size: cover;
+}
+
+.banner-area2 {
   background: url(../img/sample.jpg) center;
   background-size: cover;
 }
