@@ -1,0 +1,309 @@
+[debug] [2019-04-17T08:40:32.195Z] ----------------------------------------------------------------------
+[debug] [2019-04-17T08:40:32.196Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-17T08:40:32.197Z] CLI Version:   6.4.0
+[debug] [2019-04-17T08:40:32.197Z] Platform:      linux
+[debug] [2019-04-17T08:40:32.197Z] Node Version:  v8.11.4
+[debug] [2019-04-17T08:40:32.197Z] Time:          Wed Apr 17 2019 14:10:32 GMT+0530 (IST)
+[debug] [2019-04-17T08:40:32.197Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-17T08:40:32.203Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-17T08:40:32.203Z] > authorizing via signed-in user
+[debug] [2019-04-17T08:40:32.204Z] [iam] checking project ieeesb-7d819 for permissions ["firebase.projects.get"]
+[debug] [2019-04-17T08:40:32.205Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819:testIamPermissions  
+
+[debug] [2019-04-17T08:40:34.894Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:40:34.897Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819  
+ 
+[debug] [2019-04-17T08:40:37.038Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/diganta/Programming and Development/Development/IEEESB/Website'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-17T08:40:39.887Z] Fetching environment
+[debug] [2019-04-17T08:40:40.807Z] Error: EACCES: permission denied, open '/home/diganta/.config/gcloud/application_default_credentials.json'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.writeFileSync (fs.js:1299:33)
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/ensureDefaultCredentials.js:28:8)
+    at FunctionsEmulator.start (/usr/local/lib/node_modules/firebase-tools/lib/functionsEmulator.js:106:5)
+    at Object.start (/usr/local/lib/node_modules/firebase-tools/lib/serve/functions.js:7:33)
+    at /usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:15:23
+    at arrayMap (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:639:23)
+    at Function.map (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9556:14)
+    at _serve (/usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:13:26)
+    at Command.module.exports.Command.description.option.option.option.option.before.action [as _action] (/usr/local/lib/node_modules/firebase-tools/lib/commands/serve.js:55:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-04-17T08:40:51.035Z] ----------------------------------------------------------------------
+[debug] [2019-04-17T08:40:51.036Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-17T08:40:51.037Z] CLI Version:   6.4.0
+[debug] [2019-04-17T08:40:51.037Z] Platform:      linux
+[debug] [2019-04-17T08:40:51.037Z] Node Version:  v8.11.4
+[debug] [2019-04-17T08:40:51.037Z] Time:          Wed Apr 17 2019 14:10:51 GMT+0530 (IST)
+[debug] [2019-04-17T08:40:51.037Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-17T08:40:51.043Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-17T08:40:51.043Z] > authorizing via signed-in user
+[debug] [2019-04-17T08:40:51.044Z] [iam] checking project ieeesb-7d819 for permissions ["firebase.projects.get"]
+[debug] [2019-04-17T08:40:51.045Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819:testIamPermissions  
+
+[debug] [2019-04-17T08:40:53.476Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:40:53.478Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819  
+ 
+[debug] [2019-04-17T08:40:55.575Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/diganta/Programming and Development/Development/IEEESB/Website'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-17T08:40:56.126Z] Fetching environment
+[debug] [2019-04-17T08:40:56.128Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503:getServerAppConfig  
+ 
+[debug] [2019-04-17T08:40:56.129Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-17T08:40:57.318Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:40:57.320Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-17T08:40:58.064Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-04-17T08:41:00.495Z] Parsing function triggers
+[info] ✔  functions: fun: http://localhost:5001/ieeesb-7d819/us-central1/fun
+[debug] [2019-04-17T08:44:43.809Z] ----------------------------------------------------------------------
+[debug] [2019-04-17T08:44:43.810Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-17T08:44:43.811Z] CLI Version:   6.4.0
+[debug] [2019-04-17T08:44:43.811Z] Platform:      linux
+[debug] [2019-04-17T08:44:43.811Z] Node Version:  v8.11.4
+[debug] [2019-04-17T08:44:43.811Z] Time:          Wed Apr 17 2019 14:14:43 GMT+0530 (IST)
+[debug] [2019-04-17T08:44:43.811Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-17T08:44:43.817Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-17T08:44:43.817Z] > authorizing via signed-in user
+[debug] [2019-04-17T08:44:43.817Z] [iam] checking project ieeesb-7d819 for permissions ["firebase.projects.get"]
+[debug] [2019-04-17T08:44:43.819Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819:testIamPermissions  
+
+[debug] [2019-04-17T08:44:46.538Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:44:46.541Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819  
+ 
+[debug] [2019-04-17T08:44:48.686Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/diganta/Programming and Development/Development/IEEESB/Website'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-17T08:44:49.236Z] Fetching environment
+[debug] [2019-04-17T08:44:49.238Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503:getServerAppConfig  
+ 
+[debug] [2019-04-17T08:44:49.239Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-17T08:44:50.129Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:44:50.130Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-17T08:44:50.234Z] Parsing function triggers
+[debug] [2019-04-17T08:44:50.597Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5005
+[debug] [2019-04-17T08:45:03.439Z] ----------------------------------------------------------------------
+[debug] [2019-04-17T08:45:03.441Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-17T08:45:03.441Z] CLI Version:   6.4.0
+[debug] [2019-04-17T08:45:03.441Z] Platform:      linux
+[debug] [2019-04-17T08:45:03.441Z] Node Version:  v8.11.4
+[debug] [2019-04-17T08:45:03.442Z] Time:          Wed Apr 17 2019 14:15:03 GMT+0530 (IST)
+[debug] [2019-04-17T08:45:03.442Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-17T08:45:03.448Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-17T08:45:03.448Z] > authorizing via signed-in user
+[debug] [2019-04-17T08:45:03.448Z] [iam] checking project ieeesb-7d819 for permissions ["firebase.projects.get"]
+[debug] [2019-04-17T08:45:03.450Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819:testIamPermissions  
+
+[debug] [2019-04-17T08:45:06.325Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:45:06.327Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819  
+ 
+[debug] [2019-04-17T08:45:08.424Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/diganta/Programming and Development/Development/IEEESB/Website'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-17T08:45:08.942Z] Fetching environment
+[debug] [2019-04-17T08:45:08.944Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503:getServerAppConfig  
+ 
+[debug] [2019-04-17T08:45:08.945Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-17T08:45:09.880Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:45:09.882Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-17T08:45:09.986Z] Parsing function triggers
+[debug] [2019-04-17T08:45:10.114Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5010
+[debug] [2019-04-17T08:45:34.793Z] ----------------------------------------------------------------------
+[debug] [2019-04-17T08:45:34.795Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-17T08:45:34.795Z] CLI Version:   6.4.0
+[debug] [2019-04-17T08:45:34.795Z] Platform:      linux
+[debug] [2019-04-17T08:45:34.795Z] Node Version:  v8.11.4
+[debug] [2019-04-17T08:45:34.796Z] Time:          Wed Apr 17 2019 14:15:34 GMT+0530 (IST)
+[debug] [2019-04-17T08:45:34.796Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-17T08:45:34.802Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-17T08:45:34.802Z] > authorizing via signed-in user
+[debug] [2019-04-17T08:45:34.802Z] [iam] checking project ieeesb-7d819 for permissions ["firebase.projects.get"]
+[debug] [2019-04-17T08:45:34.804Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819:testIamPermissions  
+
+[debug] [2019-04-17T08:45:37.396Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:45:37.398Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819  
+ 
+[debug] [2019-04-17T08:45:39.480Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/diganta/Programming and Development/Development/IEEESB/Website'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-17T08:45:40.030Z] Fetching environment
+[debug] [2019-04-17T08:45:40.032Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503:getServerAppConfig  
+ 
+[debug] [2019-04-17T08:45:40.032Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-17T08:45:40.856Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:45:40.857Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-17T08:45:40.962Z] Parsing function triggers
+[debug] [2019-04-17T08:45:41.049Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5015
+[debug] [2019-04-17T08:45:46.568Z] Error while deploying to emulator: Error
+Error
+    at new RequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/googleapis/node_modules/google-auth-library/lib/transporters.js:34:42)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/node_modules/googleapis/node_modules/google-auth-library/lib/transporters.js:96:27)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1161:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:313:30)
+[debug] [2019-04-17T08:45:46.572Z] Error while deploying to emulator: Error
+Error
+    at new RequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/googleapis/node_modules/google-auth-library/lib/transporters.js:34:42)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/node_modules/googleapis/node_modules/google-auth-library/lib/transporters.js:96:27)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1161:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:313:30)
+[warn] ⚠  functions: Failed to emulate fun
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[debug] [2019-04-17T08:45:46.579Z] Error: write EIO
+    at _errnoException (util.js:992:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:864:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-04-17T08:45:46.582Z] Error: write EIO
+    at _errnoException (util.js:992:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:864:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[warn] ⚠  functions: Failed to emulate fun
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[debug] [2019-04-17T08:45:46.583Z] Error: write EIO
+    at _errnoException (util.js:992:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:864:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-04-17T08:45:46.585Z] Error: write EIO
+    at _errnoException (util.js:992:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:864:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[info] ✔  functions: fun: http://localhost:5001/ieeesb-7d819/us-central1/fun
+[debug] [2019-04-17T08:45:49.918Z] Error: write EIO
+    at _errnoException (util.js:992:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:864:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-04-17T08:45:49.919Z] Error: write EIO
+    at _errnoException (util.js:992:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:864:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-04-17T08:46:11.366Z] ----------------------------------------------------------------------
+[debug] [2019-04-17T08:46:11.368Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-17T08:46:11.368Z] CLI Version:   6.4.0
+[debug] [2019-04-17T08:46:11.368Z] Platform:      linux
+[debug] [2019-04-17T08:46:11.368Z] Node Version:  v8.11.4
+[debug] [2019-04-17T08:46:11.369Z] Time:          Wed Apr 17 2019 14:16:11 GMT+0530 (IST)
+[debug] [2019-04-17T08:46:11.369Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-17T08:46:11.375Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-17T08:46:11.375Z] > authorizing via signed-in user
+[debug] [2019-04-17T08:46:11.376Z] [iam] checking project ieeesb-7d819 for permissions ["firebase.projects.get"]
+[debug] [2019-04-17T08:46:11.377Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819:testIamPermissions  
+
+[debug] [2019-04-17T08:46:13.787Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:46:13.789Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819  
+ 
+[debug] [2019-04-17T08:46:15.972Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/diganta/Programming and Development/Development/IEEESB/Website'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-17T08:46:16.492Z] Fetching environment
+[debug] [2019-04-17T08:46:16.494Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503:getServerAppConfig  
+ 
+[debug] [2019-04-17T08:46:16.494Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-17T08:46:17.465Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:46:17.466Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-17T08:46:17.525Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2019-04-17T08:46:17.580Z] Parsing function triggers
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5005
+[info] ✔  functions: fun: http://localhost:5001/ieeesb-7d819/us-central1/fun
+[info] [hosting] Rewriting /fun to local function fun
+[info] [hosting] Rewriting /fun/ to local function fun
+[info] [hosting] Rewriting /fun/india to local function fun
+[info] [hosting] Rewriting /fun/ to local function fun
+[info] [hosting] Rewriting /fun to local function fun
+[info] [hosting] Rewriting /fun to local function fun
+[info] [hosting] Rewriting /fun to local function fun
+[debug] [2019-04-17T08:47:41.926Z] ----------------------------------------------------------------------
+[debug] [2019-04-17T08:47:41.928Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-17T08:47:41.928Z] CLI Version:   6.4.0
+[debug] [2019-04-17T08:47:41.928Z] Platform:      linux
+[debug] [2019-04-17T08:47:41.928Z] Node Version:  v8.11.4
+[debug] [2019-04-17T08:47:41.928Z] Time:          Wed Apr 17 2019 14:17:41 GMT+0530 (IST)
+[debug] [2019-04-17T08:47:41.928Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-17T08:47:41.935Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-17T08:47:41.935Z] > authorizing via signed-in user
+[debug] [2019-04-17T08:47:41.935Z] [iam] checking project ieeesb-7d819 for permissions ["firebase.projects.get"]
+[debug] [2019-04-17T08:47:41.936Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819:testIamPermissions  
+
+[debug] [2019-04-17T08:47:44.680Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:47:44.682Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ieeesb-7d819  
+ 
+[debug] [2019-04-17T08:47:45.541Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/diganta/Programming and Development/Development/IEEESB/Website'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-17T08:47:46.070Z] Fetching environment
+[debug] [2019-04-17T08:47:46.072Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503:getServerAppConfig  
+ 
+[debug] [2019-04-17T08:47:46.072Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/176071911503/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-17T08:47:47.104Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T08:47:47.105Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-17T08:47:47.170Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5010
+[debug] [2019-04-17T08:47:48.756Z] Parsing function triggers
+[info] ✔  functions: fun: http://localhost:5001/ieeesb-7d819/us-central1/fun
+[info] [hosting] Rewriting /fun to local function fun
+[info] [hosting] Rewriting /fun/ to local function fun
+[info] [hosting] Rewriting /fun/india to local function fun
+[info] Shutting down...
